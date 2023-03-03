@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sevenz\\Sorter\\": "src/"
+            "Sevenz": "src/"
         }
     },
     "authors": [

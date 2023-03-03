@@ -17,7 +17,7 @@ composer require "sevenz/sorter"
 // example
 namespace exam/your_programs;
 
-use Sevenz\Sorter\sorter;
+use Sevenz\Sorter;
 
 class Example
 {
@@ -44,6 +44,6 @@ class Example
         ],
     ];
 
-    print_r(sorter::quick($list, 'name'));
+    print_r(Sorter::quick($list, 'name'));
 }
 ```
