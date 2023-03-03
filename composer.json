@@ -1,0 +1,20 @@
+{
+    "name": "sevenz/sorter",
+    "description": "multiple of sort algorithm",
+    "require": {
+        "php": "^7.2 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sevenz\\Sorter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sevenz",
+            "email": "kovich850329@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
