@@ -1,6 +1,11 @@
 # sorter
 multiple of sort algorithm
 
+## Allowed Sort Algorithm
+| date       | sort algo  | author |
+|------------|------------|--------|
+| 2023/03/03 | Quick Sort | Sevenz |
+
 ## install
 ```
 composer require "sevenz/sorter"
