@@ -4,7 +4,7 @@ namespace Sevenz\Sorter;
 
 use Sevenz\Sorter\algorithms\quick;
 
-class sorter
+class Sorter
 {
     /**
      * quick sort
@@ -12,7 +12,7 @@ class sorter
      * @param string $action
      * @return mixed
      */
-    public function quick($unSortData, string $action)
+    public static function quick($unSortData, string $action)
     {
         return (new quick())->sort($unSortData, $action);
     }
