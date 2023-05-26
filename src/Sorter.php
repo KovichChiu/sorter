@@ -16,10 +16,10 @@ class Sorter
             return $list;
         }
 
-        $pivot_key = array_rand($list);
-        $pivot = $list[$pivot_key][$sortKey];
-        $pivot_data = $list[$pivot_key];
-        unset($list[$pivot_key]);
+        $pivotKey = array_rand($list);
+        $pivot = $list[$pivotKey][$sortKey];
+        $pivotData = $list[$pivotKey];
+        unset($list[$pivotKey]);
 
         $less = array();
         $greater = array();
@@ -32,6 +32,6 @@ class Sorter
             }
         }
 
-        return array_merge(Sorter::quick($less, $sortKey), [$pivot_data], Sorter::quick($greater, $sortKey));
+        return array_merge(Sorter::quick($less, $sortKey), [$pivotData], Sorter::quick($greater, $sortKey));
     }
 }
