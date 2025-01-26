@@ -12,6 +12,7 @@ class Sorter
      */
     public static function quick($list, $sortKey)
     {
+        // 防呆機制
         if(count($list) < 2) {
             return $list;
         }
